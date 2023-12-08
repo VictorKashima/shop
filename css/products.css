@@ -1,0 +1,27 @@
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: 1px solid #DDD;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.card > img {
+    border-radius: 1rem;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.shipping {
+    color: #0A0;
+}

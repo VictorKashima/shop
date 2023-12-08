@@ -1,0 +1,36 @@
+.main-nav-container {
+    background: var(--secondary-color);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.main-nav {
+    padding: 1.6rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 12rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 3rem;
+}
+
+.selected {
+    color: var(--third-color) !important;
+    font-weight: bold;
+}
+
+.nav-links a {
+    transition: all .2s ease-in;
+    color: var(--primary-color);
+}
+
+.nav-links a:hover {
+    color: var(--third-color);
+}

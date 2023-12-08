@@ -1,0 +1,19 @@
+.super-offers {
+    background: #EEE;
+    margin-top: 10rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.super-offers > h3 {
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.logo-detail {
+    color: var(--third-color);
+}
+
+.super-offers > p {
+    margin-bottom: 1rem;
+}
