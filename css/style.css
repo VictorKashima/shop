@@ -26,6 +26,10 @@ a {
     color: var(--secondary-color);
 }
 
+body {
+    margin: 10rem 0 0;
+}
+
 .wrapper {
     width: var(--site-util-width);
     margin-inline: auto;
@@ -35,7 +39,11 @@ a {
     background: var(--third-color);
     text-align: center;
     padding: .5rem 2rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
     font-weight: bold;
     color: var(--primary-color);
+}
+
+.hidden {
+    visibility: hidden;
 }
