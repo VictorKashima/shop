@@ -47,3 +47,31 @@ body {
 .hidden {
     visibility: hidden;
 }
+
+@media screen and (max-width:1368px) {
+
+    html {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    html {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+    :root {    
+        --site-util-width: 90%;
+    }    
+
+    html {
+        font-size: 8px;
+    }
+
+}

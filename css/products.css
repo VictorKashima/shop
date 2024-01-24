@@ -7,7 +7,7 @@
 }
 
 .card {
-    width: 16rem;
+    width: 22%;
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
@@ -32,7 +32,7 @@
 
 .price {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .shipping {
@@ -45,4 +45,29 @@
 
 .product-list > h2 {
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width:1368px) {
+
+    html {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .card {
+        width: 48%;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+
 }
