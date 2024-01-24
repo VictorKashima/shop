@@ -30,6 +30,16 @@ body {
     margin: 10rem 0 5rem;
 }
 
+input {
+    border: 1px solid var(--secondary-color)
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--fourth-color);
+    transition: all .3s ease-in-out;
+}
+
 .wrapper {
     width: var(--site-util-width);
     margin-inline: auto;
